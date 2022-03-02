@@ -1,0 +1,36 @@
+.cardInfo{
+    margin-top: -20px;
+    background-color: #e7e4d5;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+.cardInfo>div{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5em;
+}
+.cardInfo>div>span{
+    width: 20%;
+    text-align: end;
+}
+.cardInfo>div>div{
+    margin-left: 0.5em;
+    display: flex;
+    flex-direction: column;
+    width:80%;
+}
+.cardInfo span{
+    font-size: 0.975em;
+    color: var(--textColor);
+    font-weight: 400;
+}
+.cardInfo p{
+    font-size: 0.975em;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}

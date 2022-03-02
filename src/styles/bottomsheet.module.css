@@ -1,0 +1,198 @@
+.BottomSheetContainer{
+    background-color: #fff;
+    border-radius: 1.5em;
+    padding:1.5em 1em;
+    position: relative;
+    height: 100%;
+}
+.switch_Line{
+    position: absolute;
+    top: 6px;
+    left:50%;
+    transform: translateX(-50%);
+    height:4px;
+    width:45px;
+    background-color: #ccc;
+}
+.addTopicBtn{
+    background-color: transparent;
+    border:none;
+    color: #28ae61;
+}
+.selectRoom{
+    border-bottom: 1px solid #ccc;
+    padding:1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.selectRoom button{
+    border: none;
+    background-color: transparent;
+    border-radius: 1em;
+    padding: 0.5em 1.3em .2em 1.3em;
+    color: var(--textColor);
+    line-height: 1.2;
+}
+.selectRoom button.active{
+    border: 1px solid lightseagreen;
+    background-color: lightblue;
+}
+.selectRoom button div{
+    background-color: lightseagreen;
+    border-radius: 1.5em;
+}
+.selectRoom button svg{
+    font-size: 4em;
+}
+.BottomSheetContainer{
+    font-style: 1em;
+    color: var(--textColor);
+    text-align: center;
+    font-weight:500;
+}
+.letGoBtn{
+    font-size:1.3em;
+    font-weight: 500;
+    border: none;
+    border-radius: 2em;
+    color: #fff;
+    background-color:#28ae61;
+    padding: 0.3em 2em;
+    text-align: center;
+}
+.roomDetailContainer{
+    height:100%;
+    background: #f2f0e4;
+    margin: -1.5em -1em;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8em 0.5em 1.5em 0.5em;
+}
+.head .arrow_icon{
+    width:15px;
+    transform: rotate(-90deg);
+    margin-top: -0.5em;
+}
+.head .profileImg{
+    width:25px;
+    border-radius: 0.8em;
+    margin-left: 1.2em;
+}
+.head span{
+    font-size: 1em;
+    margin-left: 0.5em;
+}
+.head svg{
+    font-size: 1.5em;
+
+}
+.roomDetailCard{
+    height: 90vh;
+    overflow: hidden;
+    background-color: #fff;
+    overflow:auto;
+    padding: 1em 1em 3em 1em;
+    border-radius: 1.5em 1.5em 0 0;
+}
+.roomDetailCard h6{
+    font-size: 0.675em;
+    color: var(--textColor);
+    font-weight: 500;
+    margin-bottom: 0.3em;
+}
+.roomDetailCard img{
+    width: 70px;
+    border-radius:1.7em;
+}
+.memberContainer{
+    text-align:center;
+    width:70px;
+    position:relative;
+}
+.memberContainer .audio_icon{
+    position: absolute;
+    right: -5px;
+    bottom: 36px;
+    z-index:5;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 3px #ccc;
+}
+.memberContainer .audio_icon svg{
+    color: #28ae61;
+}
+.memberContainer p{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 500;color: #000;
+}
+.memberContainer span{
+    font-size: 2.5em;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #28ae61;
+    color: #fff;
+    margin-right:0.1em;
+    line-height: 0.8;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+.footer button{
+    background-color: #e7e4d5;
+    border:none;
+    border-radius:2em;
+}
+.footer button img{
+    width: 30px;
+}
+.footer>button{
+    display: flex;
+    align-items: center;
+    padding: 0.3em 1em;
+    color:#28ae61;
+    font-weight: 500;
+}
+.footer>div{
+    display: flex;
+    align-items: center;
+}
+.footer>div>button{
+    line-height:1;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer>div>button:first-child{
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+.footer>div>button:nth-child(2){
+    margin-right: 0.5em;
+}
+.footer>div>button:nth-child(3){
+    font-size: 1.5em;
+
+}

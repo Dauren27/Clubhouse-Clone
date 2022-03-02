@@ -1,0 +1,46 @@
+.container{
+    background:#fff;
+    border-radius: 15px;
+    padding:20px;
+    color:var(--textColor);
+    margin-top:20px;
+}
+.content{
+    display:flex;
+    justify-content: flex-start;
+}
+.content .images{
+    position:relative;
+}
+.content .images img:nth-child(2){
+    position:absolute;
+    left:1.2em;
+    top:1.2em;
+}
+.names{
+    margin-top:-0.5em;
+    margin-left:30px;
+    line-height: 1;
+    font-size:1.2em;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+.names p{
+    margin-bottom:0.5em;
+}
+img{
+    width:50px;
+    border-radius: 10px;
+}
+h6{
+    color: var(--textColor);
+    font-size:0.9em;
+    font-weight:600;
+}
+h2{
+    margin-top: -5px;
+    color:#000;
+    font-size: 1.2em;
+    font-weight:500;
+}

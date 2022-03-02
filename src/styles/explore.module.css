@@ -1,0 +1,128 @@
+.exploreContainer{
+    height:100%;
+    background-color: #f2f0e4;
+    
+}
+.exploreHeader{
+    z-index:5;
+}
+.exploreHeader h2{
+    margin-top:-50px;
+    color: var(--textColor);
+    font-weight: 500;
+    font-size: 1.6em;
+}
+.exploreContainer .exploreHeader svg{
+    width:30px;
+    height:30px;
+    transform: rotate(90deg);
+    margin:20px;
+    cursor: pointer;
+    color:#000;
+}
+.exploreInput{
+    width:90%;
+    margin:2em;
+    display:flex;
+    align-items: center;
+    padding:0.3em 1em;
+}
+.exploreInput input{
+    width:90%;
+    border:none;
+    height:30px;
+    border-radius:0.5em;
+}
+.exploreInput img{
+    width:20px;
+}
+.exploreContent> h6{
+    font-size: 0.975em;
+    font-weight: 500;
+    color:#bbb;
+    margin: 1.5em 0 0.5em 0;
+    margin-left:20px;
+}
+.explorePeople{
+    background-color: #fff;
+    margin:0 -0.5em;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+    position:relative;
+}
+.exploreItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .5em;
+}
+.exploreItem>div>div{
+    margin-left: 1em;
+}
+.exploreItem img{
+    border-radius: 1.1em;
+}
+.exploreItem h5{
+    color: var(--textColor);
+    font-size:1.1em;
+    margin-bottom:.2em;
+}
+.exploreItem p{
+    color: var(--textColor);
+    font-size: 0.9em;
+    margin:0;
+    display: block;
+    width:173px;
+    height:fit-content;
+    line-height: 1.15;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:#aaa;
+}
+.exploreItem button{
+    background-color: #fff;
+    border: 2px solid var(--btnBgColor);
+    color: var(--btnBgColor);
+    border-radius: 2em;
+    font-weight: 500;
+
+    padding: 0.1em 1.2em;
+}
+.showMore{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom:-14px;
+    left:50%;
+    transform: translateX(-50%);
+    border:none !important;
+    color:#aaa !important;
+    box-shadow: 0px 2px 3px #ccc;
+    font-weight: 500;
+    border-radius: 2em;
+}
+.showMore span{
+    font-size:0.775em !important;
+    margin-right:0.4em;
+    margin-left:0.5em;
+}
+.conversationContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.conversationCard{
+    width:200px;
+    margin-top:20px;
+    padding: .5em;
+    background-color: #fff;
+    border-radius: 1em;
+}
+.conversationCard h6{
+    color: var(--textColor);
+}
+.conversationCard p{
+    color:#bbb;
+    line-height: 1.2;
+    margin:0;
+
+}

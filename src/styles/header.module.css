@@ -1,0 +1,12 @@
+.headerContainer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.headerContainer img{
+    width: 35px;
+}
+.nav img{
+    margin-right: 1.8em;
+}
